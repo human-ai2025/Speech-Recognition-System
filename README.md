@@ -38,18 +38,20 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/human-ai2025" target="_blank">Author</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-Over the last few years, Voice Assistants have become ubiquitous with the popularity of Google Home, Amazon Echo, Siri, Cortana, and others.
+Over the last few years, Voice Assistants have become ubiquitous with the popularity of Google Home, Amazon Echo, Siri, Cortana, and others.These are the most well-known examples of Automatic Speech Recognition (ASR). This class of applications starts with a clip of spoken audio in some language and extracts the words that were spoken, as text. For this reason, they are also known as Speech-to-Text algorithms.Of course, applications like Siri and the others mentioned above, go further. 
 
-These are the most well-known examples of Automatic Speech Recognition (ASR). This class of applications starts with a clip of spoken audio in some language and extracts the words that were spoken, as text. For this reason, they are also known as Speech-to-Text algorithms.
-
-Of course, applications like Siri and the others mentioned above, go further. Not only do they extract the text but they also interpret and understand the semantic meaning of what was spoken, so that they can respond with answers, or take actions based on the user's commands.
+> outline
+ - extraced features from the  [dataset click here to download](http://download.tensorflow.org/data/speech_commands_v0.01.tar.gz).
+ - Build and trained a CNN model. 
+ - Deployed the Deeplearning model locally with the help of docker and using flask, uWSGI and nginx to handle web server and traffic routing. 
+ - Deployed the same model in cloud [AWS EC2](https://aws.amazon.com/)
 
 
 ## :rocket: Technologies ##
@@ -76,20 +78,24 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 $ git clone https://github.com/human-ai2025/Speech-Recognition-System
 
 # Access
-$ cd audio-app
+$ cd Speech-Recognition-System
 
-# just to train
-$ python main.py --do_train
-# just to predict
-$ python main.py --do_predict\
-# Todo both train and predict 
+# Prepare the data from dataset after downloading it 
+$ python prepare_dataset.py
+# after running that a data.json file will be created 
+
+# make a testing directory and add some wav files for testing
+# train and infer 
 $ python main.py --do_train --do_predict
+
+# After doing this, it will give you the model weights [make sure to use the same versions of tensorflow in docker and while buiding the model]
 
 # For docker 
 $ docker compose build
 $ docker compose up
 
-# The server will initialize in the <http://localhost:3000>
+# This will fire up the web serice for making predictions.
+# The server will initialize in the "http://127.0.0.1/predict"
 ```
 
 ## :memo: License ##
