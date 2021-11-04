@@ -9,19 +9,19 @@
 <h1 align="center">Speech Recognition System</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/human-ai2025/Speech-Recognition-System?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/human-ai2025/Speech-Recognition-System?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/human-ai2025/Speech-Recognition-System?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/human-ai2025/Speech-Recognition-System?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/human-ai2025/Speech-Recognition-System?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/human-ai2025/Speech-Recognition-System?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/audio-app?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/human-ai2025/Speech-Recognition-System?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -73,7 +73,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/audio-app
+$ git clone https://github.com/human-ai2025/Speech-Recognition-System
 
 # Access
 $ cd audio-app
@@ -100,7 +100,7 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 Made with :heart: by <a href="https://github.com/human-ai2025" target="_blank">Tarini Tanaya Mohapatra</a>
 
 
-1. [image credits](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40ageitgey%2Fmachine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a&psig=AOvVaw09RpyS10gCZyKO9JAoXWTF&ust=1636040269198000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCOChjILD_PMCFQAAAAAdAAAAABAD)
+[image credits](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40ageitgey%2Fmachine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a&psig=AOvVaw09RpyS10gCZyKO9JAoXWTF&ust=1636040269198000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCOChjILD_PMCFQAAAAAdAAAAABAD)
 &#xa0;
 
 <a href="#top">Back to top</a>
